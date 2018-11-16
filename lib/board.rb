@@ -3,11 +3,11 @@ class Board
   @@board=[]
 
   def initialize
-    @@board=[" "," "," "," "," "," "," "," "," ",]
+    @@board=[]
   end
 
   def cells
-
+    @@board
   end
 
   def reset!
