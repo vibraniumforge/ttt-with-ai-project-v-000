@@ -11,8 +11,8 @@ class Board
   end
 
   def reset!
-    @@cells.clear
-    @@cells=[" "," "," "," "," "," "," "," "," ",]
+    @@board.clear
+    @@board=[" "," "," "," "," "," "," "," "," ",]
   end
 
   def display
